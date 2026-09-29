@@ -1,0 +1,27 @@
+name: Ошибка приложения или установки
+description: Сообщить о проблеме без публикации личных данных
+title: "[Ошибка]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Не вставляйте ссылки подписок, UUID, пароли, токены и личные журналы."
+  - type: input
+    id: version
+    attributes:
+      label: Версия Wase и имя установщика
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Устройство и версия системы
+      placeholder: "Например: MacBook Air M3, macOS 26.6.2"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что произошло
+      description: Шаги, ожидаемый результат и точный текст ошибки.
+    validations:
+      required: true
