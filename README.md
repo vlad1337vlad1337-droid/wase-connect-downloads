@@ -4,7 +4,7 @@
 
 Один интерфейс для ваших VPN-подписок: серверы, избранное, маршрутизация и темы оформления.
 
-[Загрузки](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases) · [Совместимость](docs/COMPATIBILITY.md) · [Установка](docs/INSTALL.md) · [Сообщить о проблеме](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose) · [Wase Secure](https://waseworm.ru/sec)
+[Загрузки](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases) · [Совместимость](docs/COMPATIBILITY.md) · [Установка](docs/INSTALL.md) · [Для провайдеров](docs/PROVIDER-INTEGRATION.md) · [Темы и фон](docs/THEMES.md) · [Сообщить о проблеме](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose) · [Wase Secure](https://waseworm.ru/sec)
 
 ## Загрузки
 
