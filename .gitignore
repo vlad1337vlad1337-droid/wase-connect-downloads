@@ -3,7 +3,17 @@
 *.apk
 *.exe
 *.ipa
+*.aab
+*.zip
+*.tar.gz
 *.p12
 *.p8
+*.key
+*.pem
+*.jks
+*.keystore
+*.mobileprovision
+*.provisionprofile
+*.log
 .env*
 __pycache__/

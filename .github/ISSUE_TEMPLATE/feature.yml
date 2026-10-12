@@ -1,0 +1,21 @@
+name: Предложить улучшение
+description: Удобство приложения, доступность и документация
+title: "[Предложение]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Не публикуйте подписки, конфигурации, ключи или персональные сведения."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что неудобно сейчас
+      description: Опишите задачу и устройство, на котором она возникает.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Какой результат нужен
+      description: Можно описать пример или приложить обезличенный макет.
+    validations:
+      required: true
