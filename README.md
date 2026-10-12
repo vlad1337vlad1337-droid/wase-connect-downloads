@@ -4,20 +4,20 @@
 
 Один интерфейс для ваших VPN-подписок: серверы, избранное, маршрутизация и темы оформления.
 
-[Загрузки](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases) · [Совместимость](docs/COMPATIBILITY.md) · [Установка](docs/INSTALL.md) · [Для провайдеров](docs/PROVIDER-INTEGRATION.md) · [Темы и фон](docs/THEMES.md) · [Сообщить о проблеме](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose) · [Wase Secure](https://waseworm.ru/sec)
+[Загрузки](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases) · [Совместимость](docs/COMPATIBILITY.md) · [Установка](docs/INSTALL.md) · [Для провайдеров](docs/PROVIDER-INTEGRATION.md) · [Темы и фон](docs/THEMES.md) · [Zapret для Windows](docs/ZAPRET-WINDOWS.md) · [Сообщить о проблеме](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose) · [Wase Secure](https://waseworm.ru/sec)
 
 ## Загрузки
 
-**Публичный стабильный выпуск готовится.** В этом разделе появятся установщики после проверки подписи и установки на целевых устройствах.
+**Публичный стабильный выпуск готовится.** В этом разделе появятся установщики после проверки подписи и установки на целевых устройствах. Руководства могут описывать готовящееся обновление; это не объявление его публикации.
 
 | Устройство | Формат | Доступность |
 |---|---|---|
-| Mac · Apple Silicon / Intel | Universal DMG | Готовится подпись Apple и проверка установки |
-| Windows x64 | EXE | Идут проверки на настоящем Windows |
-| Android | APK | Идут проверки на физических устройствах |
-| Android TV / Google TV | APK | Идут проверки на телевизоре |
-| iPhone / iPad | App Store / TestFlight | Готовится |
-| Apple TV | App Store / TestFlight | В разработке |
+| Mac · Apple Silicon / Intel | Universal DMG | Внутренний пакет; подпись Apple, notarization и приёмка скачанного выпуска впереди |
+| Windows x64 | EXE | Локальные проверки и UI под Wine; нативная приёмка Windows впереди |
+| Android | APK | Сборки ARM64 / ARMv7; физические устройства впереди |
+| Android TV / Google TV | APK | Реальный телевизор, пульт и VPN ещё не прошли приёмку |
+| iPhone / iPad | App Store / TestFlight | Есть неподписанная сборка симулятора; подпись и устройства впереди |
+| Apple TV | App Store / TestFlight | Принятого артефакта общего клиента нет |
 
 Когда выпуск будет доступен, выбирайте установщик в **[Releases](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases)** под свою платформу. Автоматические архивы GitHub `Source code (zip / tar.gz)` содержат документацию этой страницы и **не устанавливают приложение**.
 
