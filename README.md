@@ -4,7 +4,7 @@
 
 Один интерфейс для ваших VPN-подписок: серверы, избранное, маршрутизация и темы оформления.
 
-[Загрузки](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases) · [Совместимость](docs/COMPATIBILITY.md) · [Установка](docs/INSTALL.md) · [Для провайдеров](docs/PROVIDER-INTEGRATION.md) · [Темы и фон](docs/THEMES.md) · [Zapret для Windows](docs/ZAPRET-WINDOWS.md) · [Сообщить о проблеме](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose) · [Wase Secure](https://waseworm.ru/sec)
+[Статус выпуска](release-status.json) · [Что изменилось](CHANGELOG.md) · [Загрузки](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases) · [Совместимость](docs/COMPATIBILITY.md) · [Установка](docs/INSTALL.md) · [Для провайдеров](docs/PROVIDER-INTEGRATION.md) · [Темы и фон](docs/THEMES.md) · [Zapret для Windows](docs/ZAPRET-WINDOWS.md) · [Сообщить о проблеме](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose) · [Wase Secure](https://waseworm.ru/sec)
 
 ## Загрузки
 
@@ -30,7 +30,7 @@
 
 Возможности отдельных платформ и форматов отличаются. [Матрица совместимости](docs/COMPATIBILITY.md) описывает текущие границы.
 
-Внутренняя версия 2.1.5 включает [экспериментальный профиль WASE + REALITY](docs/WASE-REALITY.md): отдельный HTTPS CONNECT-шлюз перед REALITY сервером, с явным подтверждением пользователя. Это требует поддержки провайдера и пока не является публичным стабильным выпуском или гарантией работы в любой сети.
+Внутренняя версия 2.1.7 включает [экспериментальный профиль WASE + REALITY](docs/WASE-REALITY.md): отдельный HTTPS CONNECT-шлюз перед REALITY сервером, с явным подтверждением пользователя. Это требует поддержки провайдера и пока не является публичным стабильным выпуском или гарантией работы в любой сети.
 
 ## Проверка загрузки
 
@@ -40,4 +40,6 @@
 
 [Создать обращение](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/issues/new/choose). Укажите версию приложения, систему, модель устройства и шаги воспроизведения. Не публикуйте ссылки подписок, UUID серверов, пароли или личные журналы.
 
-Этот репозиторий содержит страницу загрузок, документацию и оформление. Исходники клиента хранятся отдельно в приватном репозитории. [Компоненты и лицензии](THIRD-PARTY-NOTICES.md).
+Предложения по интерфейсу и документации: [правила участия](CONTRIBUTING.md).
+
+Этот репозиторий содержит страницу загрузок, документацию, оформление и проверки публикации. Исходники клиента хранятся отдельно в приватном репозитории. [Компоненты и лицензии](THIRD-PARTY-NOTICES.md).

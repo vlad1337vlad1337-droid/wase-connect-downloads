@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Установка и доступность по устройствам
+    url: https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/blob/main/docs/COMPATIBILITY.md
+    about: Сначала проверьте статус выпуска и ограничения своей платформы.
   - name: Сообщить об уязвимости приватно
     url: https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/security/advisories/new
     about: Для проблем безопасности используйте приватный отчёт вместо публичного обращения.

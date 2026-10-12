@@ -15,7 +15,7 @@ body:
     id: platform
     attributes:
       label: Устройство и версия системы
-      placeholder: "Например: MacBook Air M3, macOS 26.6.2"
+      placeholder: "Например: MacBook Air M3, версия macOS из «Об этом Mac»"
     validations:
       required: true
   - type: textarea
@@ -25,3 +25,29 @@ body:
       description: Шаги, ожидаемый результат и точный текст ошибки.
     validations:
       required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Где возникает проблема
+      options:
+        - Установка или запуск
+        - Интерфейс и оформление
+        - Импорт или обновление подписки
+        - Подключение — все приложения (туннель)
+        - Подключение — системный прокси
+        - Zapret для Windows
+        - Другое / не знаю
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: Код ошибки или короткий обезличенный фрагмент
+      description: Не прикладывайте полный журнал, конфиг или ссылку подписки. Закройте личные данные на скриншоте.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Перед отправкой
+      options:
+        - label: Я убрал ссылки подписок, ключи, UUID, пароли и персональные сведения.
+          required: true
