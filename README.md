@@ -13,13 +13,15 @@
 | Устройство | Формат | Доступность |
 |---|---|---|
 | Mac · Apple Silicon / Intel | Universal DMG | Внутренний пакет; подпись Apple, notarization и приёмка скачанного выпуска впереди |
-| Windows x64 | EXE | Локальные проверки и UI под Wine; нативная приёмка Windows впереди |
+| Windows x64 | EXE | UI под Wine; lifecycle WinDivert проверен на Windows Server 2022; реальная сеть и установочная приёмка впереди |
 | Android | APK | Сборки ARM64 / ARMv7; физические устройства впереди |
 | Android TV / Google TV | APK | Реальный телевизор, пульт и VPN ещё не прошли приёмку |
 | iPhone / iPad | App Store / TestFlight | Есть неподписанная сборка симулятора; подпись и устройства впереди |
 | Apple TV | App Store / TestFlight | Принятого артефакта общего клиента нет |
 
 Когда выпуск будет доступен, выбирайте установщик в **[Releases](https://github.com/vlad1337vlad1337-droid/wase-connect-downloads/releases)** под свою платформу. Автоматические архивы GitHub `Source code (zip / tar.gz)` содержат документацию этой страницы и **не устанавливают приложение**.
+
+Подготовлено внутреннее исправление **Windows 2.1.9** для запуска Zapret. Это не новый общий комплект: Mac, Android и iOS Simulator остаются на **2.1.8**. Публичный EXE 2.1.9 здесь пока не опубликован. [Изменения](CHANGELOG.md) · [Инструкция Zapret](docs/ZAPRET-WINDOWS.md).
 
 ## В приложении
 
